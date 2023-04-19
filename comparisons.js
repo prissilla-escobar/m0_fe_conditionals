@@ -122,3 +122,6 @@ console.log(lovesToPlay && age <=2);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// The final like of code printed "true." This is because a dog is considered a puppy when under 2 years old so the value for age must be 2
+// or under for it to be a puppy. The logical operator is checking if both values are true and since the dog likes to play and is a puppy
+// the return was true.

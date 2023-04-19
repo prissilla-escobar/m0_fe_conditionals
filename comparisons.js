@@ -60,20 +60,33 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 // YOU DO: Explain.
+// This code will print the conditional value of what we are asking based on the comparison operators. 
+// This log should be true since it is ture that 4 is less than 9.
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
+// Line 65 code declares a variable named books and assigns it the number of 3.
+// Line 66 of code will print the conditional value of what is being asked based on the comparioson operators. 
+// This log should be false since 4 is not less than 3. 
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// Lines 73 and 74 code declare two different variables and assigns them numbers.
+// The variables are friends and siblings and the numbers are 6 and 2.
+// Line 75 code will print the conditional value of what is being asked based on the comparison operators.
+// This log should be true since 6 is greater than 2.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+// Lines 81 and 82 code declare two different variables and assigns them numbers.
+// The variables are attendees and meals and the assigned numbers are 9 and 8.
+// Line 84 code will print the conditional value of what is being asked based on the comparison operators.
+// This log should be true because 9 is not strictly equal to 8.
 
 
 // #-------------------

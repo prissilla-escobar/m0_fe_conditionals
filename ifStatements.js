@@ -42,10 +42,13 @@ if (weather === "sunny") {
 // Experiment with manipulating the value held within numQuarters
 // to make sure both conditions can be achieved.
 
-var numQuarters = 0
+var numQuarters = 19
 
+if (numQuarters >= 2) {
 console.log("I have enough money for a gumball");
+} else if (numQuarters < 2) {
 console.log("I don't have enough money for a gumball");
+}
 
 
 // #####################
